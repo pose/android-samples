@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Cargando...</string>
+    <string name="app_name">Busqueda en Twitter</string>
+    <string name="search_activity">Busqueda en Twitter</string>
+    <string name="no_data">No hay datos disponibles</string>
+</resources>
