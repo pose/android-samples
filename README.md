@@ -16,7 +16,7 @@ La primera parte de la clase, se destinará a la configuración del entorno. Par
 
 Para que la integración con Eclipse funcione se debe instalar el ADT. El Update Site es el siguiente:
 
-	[https://dl-ssl.google.com/android/eclipse/](https://dl-ssl.google.com/android/eclipse/) 
+	https://dl-ssl.google.com/android/eclipse/
 
 Luego, se debe especificar el path donde se encuentra el SDK para que el ADT lo encuentre.
 
