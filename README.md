@@ -12,17 +12,13 @@ La primera parte de la clase, se destinará a la configuración del entorno. Par
     $ md5sum android-sdk_r11-linux_x86.tgz #Verificamos el checksum del archivo
     026c67f82627a3a70efb197ca3360d0a
 
-Luego, se debe setear en el .bashrc lo siguiente:
-    
-    # exportamos ANDROID_HOME
-    export ANDROID_HOME="<lugar donde descomprimieron el sdk>"
-
 ### Eclipse
 
 Para que la integración con Eclipse funcione se debe instalar el ADT. El Update Site es el siguiente:
 
 	[https://dl-ssl.google.com/android/eclipse/](https://dl-ssl.google.com/android/eclipse/) 
 
+Luego, se debe especificar el path donde se encuentra el SDK para que el ADT lo encuentre.
 
 ### Descargar paquetes desde SDK
 
