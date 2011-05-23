@@ -21,14 +21,15 @@ Luego, se debe setear en el .bashrc lo siguiente:
 
 Para que la integración con Eclipse funcione se debe instalar el ADT. El Update Site es el siguiente:
 
-    [[https://dl-ssl.google.com/android/eclipse/]]
+	[https://dl-ssl.google.com/android/eclipse/](https://dl-ssl.google.com/android/eclipse/) 
+
 
 ### Descargar paquetes desde SDK
 
- * Por medio de la integración con Eclipse, entrar a: `Window > Android SDK and AVD Manager`. 
- * Luego seleccionar: `Available Packages` y allí `Android Repository`
- * Seleccionar `SDK Platform Android 2.1-update1, API 7, revision 2`
- * Instalarlo
+ 1. Por medio de la integración con Eclipse, entrar a: `Window > Android SDK and AVD Manager`. 
+ 2. Luego seleccionar: `Available Packages` y allí `Android Repository`
+ 3. Seleccionar `SDK Platform Android 2.1-update1, API 7, revision 2`
+ 4. Instalarlo
 
 
 ### Crear la máquina virtual
@@ -37,6 +38,6 @@ Por último, se debe crear la máquina virtual que emulará el dispositivo. Para
 
 ## Clase de Taller
 
-Se puede encontrar en [[aquí|https://docs.google.com/present/view?id=dd2px4mb_447d6zdgkp9]].
+Se puede encontrar en [aquí](https://docs.google.com/present/view?id=dd2px4mb_447d6zdgkp9).
 
 
