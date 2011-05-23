@@ -1,6 +1,6 @@
-(warning: spanish follows)
-
 # Taller de Android
+
+El objetivo del taller es poder configurar el entorno necesario para el desarrollo de aplicaciones en la plataforma Android. 
 
 ## Instalación
 
@@ -25,10 +25,10 @@ Para que la integración con Eclipse funcione se debe instalar el ADT. El Update
 
 ### Descargar paquetes desde SDK
 
- # Por medio de la integración con Eclipse, entrar a: `Window > Android SDK and AVD Manager`. 
- # Luego seleccionar: `Available Packages` y allí `Android Repository`
- # Seleccionar `SDK Platform Android 2.1-update1, API 7, revision 2`
- # Instalarlo
+ * Por medio de la integración con Eclipse, entrar a: `Window > Android SDK and AVD Manager`. 
+ * Luego seleccionar: `Available Packages` y allí `Android Repository`
+ * Seleccionar `SDK Platform Android 2.1-update1, API 7, revision 2`
+ * Instalarlo
 
 
 ### Crear la máquina virtual
