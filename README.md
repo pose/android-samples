@@ -1,6 +1,6 @@
 # Taller de Android
 
-El objetivo del taller es poder configurar el entorno necesario para el desarrollo de aplicaciones en la plataforma Android. 
+El objetivo del taller es poder configurar el entorno necesario para el desarrollo de aplicaciones en la plataforma Android.  
 
 ## Instalación
 
@@ -34,6 +34,5 @@ Por último, se debe crear la máquina virtual que emulará el dispositivo. Para
 
 ## Clase de Taller
 
-Se puede encontrar en [aquí](https://docs.google.com/present/view?id=dd2px4mb_447d6zdgkp9).
-
+Se puede encontrar [aquí](https://docs.google.com/present/view?id=dd2px4mb_447d6zdgkp9).
 
