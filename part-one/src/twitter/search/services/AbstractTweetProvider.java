@@ -10,7 +10,7 @@ import twitter.search.model.api.TweetProvider;
 
 public abstract class AbstractTweetProvider implements TweetProvider {
 
-	public static final String[] fields = { "image", "date", "user", "text" };
+	public static final String[] fields = { "date", "user", "text" };
 
 	@Override
 	public List<? extends Map<String, ?>> getTweetsAsMap() {
@@ -18,10 +18,9 @@ public abstract class AbstractTweetProvider implements TweetProvider {
 		List<Map<String, String>> transformedTweets = new ArrayList<Map<String, String>>();
 		for (Tweet t : tweets) {
 			HashMap<String, String> map = new HashMap<String, String>();
-			map.put(fields[0], t.getProfileImageURL());
-			map.put(fields[1], t.getCreationDate().toString());
-			map.put(fields[2], t.getUser());
-			map.put(fields[3], t.getText());
+			map.put(fields[0], t.getCreationDate().toString());
+			map.put(fields[1], t.getUser());
+			map.put(fields[2], t.getText());
 			transformedTweets.add(map);
 		}
 		return transformedTweets;

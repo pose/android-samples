@@ -24,9 +24,11 @@ public class SearchActivity extends ListActivity {
 
 		ListAdapter adapter = new SimpleAdapter(this,
 				tweetProvider.getTweetsAsMap(), R.layout.search_item,
-				tweetProvider.getMapKeys(), new int[] { R.id.image, R.id.date,
+				tweetProvider.getMapKeys(), new int[] { R.id.date,
 						R.id.title, R.id.description });
-
+		
 		setListAdapter(adapter);
 	}
+	
+	
 }

@@ -9,7 +9,7 @@
 
 	<ImageView android:src="@drawable/icon"
 		android:layout_height="wrap_content" android:layout_width="wrap_content"
-		android:id="@+id/image"></ImageView>
+		android:id="@+id/image" android:visibility="gone"></ImageView>
 
 	<TextView android:id="@+id/description" android:textSize="16sp"
 		android:layout_width="fill_parent" android:layout_height="wrap_content"

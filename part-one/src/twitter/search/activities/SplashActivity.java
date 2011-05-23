@@ -2,6 +2,7 @@ package twitter.search.activities;
 
 import twitter.search.R;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -17,8 +18,9 @@ public class SplashActivity extends Activity {
 		public void handleMessage(Message msg) {
 			switch (msg.what) {
 			case SplashActivity.STOP:
-				// Intent intent = new Intent
-				// startActivity()
+				Intent intent = new Intent(SplashActivity.this,
+						SearchActivity.class);
+				startActivity(intent);
 				SplashActivity.this.finish();
 				break;
 			}
