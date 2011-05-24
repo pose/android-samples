@@ -32,6 +32,13 @@ Luego, se debe especificar el path donde se encuentra el SDK para que el ADT lo 
 
 Por último, se debe crear la máquina virtual que emulará el dispositivo. Para esto, dentro de  `Window > Android SDK and AVD Manager` en `Virtual Devices` seleccionar `New` y crear una máquina virtual llamada `hci` y con la opción `snapshot` habilitada.
 
+### Troubleshooting
+
+ * En caso de que no esté funcionando el proyecto realizar un `Clean` del mismo. 
+ * En caso de que el proyecto no esté reconociendo el objeto `R`, deshabilitar temporalmente el build automático y hacer `Clean`. Volver a habilitar el build automático.
+ * En caso de que el proyecto siga teniendo errores: Revisar la solapa `Problems` y en caso de que el error parezca que tiene que ver con que el compilador no soporta annotations: Hacer click derecho en el proyecto que se encuentra a la izquierda, ir a `Properties` y buscar `Compiler`. Cambiar las opciones en esa solapa y verificar que se esté soportando la versión `1.6`.
+
+
 ## Clase de Taller
 
 Se puede encontrar [aquí](https://docs.google.com/present/view?id=dd2px4mb_447d6zdgkp9).
